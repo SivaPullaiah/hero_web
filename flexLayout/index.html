@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar section -->
+    <div class="container-fluid p-0">
+        <div class="header d-flex flex-row justify-content-between">
+            <div class="navbar-item"><a href="#" class="navbar-item">Home</a></div>
+            <div class="navbar-item"><a href="#" class="navbar-item">Blogs</a></div>
+            <div class="navbar-item"><a href="#" class="navbar-item">Portfolio</a></div>
+            <div class="navbar-item"><a href="#" class="navbar-item">contact me</a></div>
+        </div>
+    </div>
+
+    <!-- intro section -->
+    <div class="container">
+        <div class="content-area">
+            <h2 class="second-head">
+                Welcome to my website!
+            </h2>
+            <p>Welcome! Join our vibrant community for captivating discussions. Explore diverse topics, exchange ideas, and engage with like-minded individuals. Embrace respectful debates and the joy of learning. Let the discourse begin!</p>
+        </div>
+    </div>
+
+    
+    <!-- bolgs section -->
+    <div class="container">
+        <h1>My blogs</h1>
+        <div class="row mt-5">
+            <div class="col-12 col-md-6 container blogs d-flex flex-row justify-content-between">
+                <div>
+                    <img src="https://herovired.com/wp-content/uploads/2023/07/Comprehensive-Guide-to-AVL-Tree-in-Data-Structure.webp" alt="" height="150">
+                </div>
+                <div class="blog-content pl-3">
+                    <div class="mb-3">
+                        <span class="bolg-head p-2">Data Science</span>
+                    </div>
+                    <h1 class="blog-header">Comprehensive Guide to AVL Tree in Data Structure</h1>
+                    <p class="blog-desc">In the world of data structures, the AVL tree in data structure stands out as a special type of binary...</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 container blogs d-flex flex-row justify-content-between">
+                <div>
+                    <img src="https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=1200/api/page/5192995521691648/image/download/6089585111334912" alt="" height="150">
+                </div>
+                <div class="blog-content pl-3">
+                    <div class="mb-3">
+                        <span class="bolg-head p-2">Bit manipulation</span>
+                    </div>
+                    <h1 class="blog-header">The basics of bit manipulation</h1>
+                    <p class="blog-desc">
+                        AND operator (&)
+                        OR operator (|)
+                        XOR operator (^)
+                        NOT operator (~)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-md-6 container blogs d-flex flex-row justify-content-between">
+                <div>
+                    <img src="https://blogs.sap.com/wp-content/uploads/2023/06/296954_GettyImages-1212935826_small_jpg-1.jpg" alt="" height="150">
+                </div>
+                <div class="blog-content pl-3">
+                    <div class="mb-3">
+                        <span class="bolg-head p-2">GenAI</span>
+                    </div>
+                    <h1 class="blog-header">GenAI : Lets get Future Ready</h1>
+                    <p class="blog-desc">This article talks about what Generative AI/ChatGPT seems like from a layman’s point of view.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 container blogs d-flex flex-row justify-content-between">
+                <div>
+                    <img src="https://miro.medium.com/v2/resize:fit:1100/0*pok0dbYb5JZUC6I0" alt="" height="150">
+                </div>
+                <div class="blog-content pl-3">
+                    <div class="mb-3">
+                        <span class="bolg-head p-2">TCP IP</span>
+                    </div>
+                    <h1 class="blog-header">TCP IP(Network series blog 3)</h1>
+                    <p class="blog-desc">This is the third blog in the network series to include the details about TCP/IP</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+    <div class="container-fluid footer">
+        <div class="container pb-5">
+            <h1 class="pt-3">This is footer</h1>
+            <p>Follow me for such more this type of content</p>
+            <h3>My projects</h3>
+            <ul>
+                <li><a href="https://sivapullaiah.github.io/CodeClause_project_Portfolio_Website/index.html" class="footer-item">My Portfolio</a></li>
+                <li><a href="https://sivapullaiah.github.io/CodeClause_project_URL_Shortner/index.html" class="footer-item">URL shortner</a></li>
+                <li><a href="https://sivapullaiah.github.io/CodeClause_Integrated_Payment_Gateway/index.html" class="footer-item">Checkouts</a></li>
+                <li><a href="https://sivapullaiah.github.io/CodeClause_project_Unit_Converter/index.html" class="footer-item">Infiunit</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
