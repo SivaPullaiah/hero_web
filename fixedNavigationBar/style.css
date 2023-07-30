@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000; /* Ensure the navbar stays on top of other elements */
+}
+
+/* Styling the navigation links */
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+/* Add some hover effect to the navigation links */
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Ensuring the content below the navbar doesn't overlap */
+.content {
+    padding-top: 60px; /* Adjust this value to leave space for the fixed navbar */
+}
